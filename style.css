@@ -1,0 +1,157 @@
+/* 
+    COLORS
+        link-nav #17233D
+        btn - #4CB538
+        btn - #6FBF44      
+
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Parte Header---------------- */
+nav{
+    padding: 0px 42px;
+    height: 15vh;
+    padding-top: 30px;
+}
+
+ul{
+    list-style: none;
+    display: inline-block;
+}
+
+li{
+    display: inline-block;
+    margin-right: 36px;
+}
+
+a{
+    text-decoration: none;
+    color: #17233D;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+button{
+    background-color: #4CB538;
+    color: white;
+    padding: 13px 28px;
+    border: none;
+    outline: none;
+    border-radius: 15px;
+    font-weight: 500;
+}
+
+/* Parte Main -----------------------*/
+main{
+    width: 100vw;
+    height: 70vh;
+}
+
+.box-main{
+    width: 80%;
+    margin: auto;
+    padding: 30px;
+}
+
+img{
+    width: 50%;
+    float: left;
+}
+
+.card{
+    display: inline-block;
+    width: 45%;
+    padding: 30px;
+}
+
+h1{
+    font-weight: 700;
+    font-size: 3rem;
+    color:#161A49;
+    line-height: 50px;
+}
+
+p{
+    font-weight: 400;
+    font-size: 1.0em;
+    letter-spacing: 0.5;
+    margin: 30px 0px;
+}
+
+#learn{
+    color: #6FBF44;
+    font-weight: 500;
+    font-size: 1;
+}
+
+@media (max-width: 1110px) {
+    h1{
+        font-size: 2.3rem;
+    }
+
+    p{
+        font-size: 1em;
+        margin: 10px 0px;
+    }
+
+    img{
+        float: left;
+    }
+    
+}
+
+@media (max-width: 960px) {
+    h1{
+        font-size: 2.0rem;
+    }
+
+    p{
+        font-size: 0.8em;
+        margin: 10px 0px;
+    }
+
+    img{
+        float: left;
+    }  
+}
+
+@media (max-width: 800px) {
+    nav{
+        display: none;
+    }
+
+    .box-main{    
+        width: 100%;
+        text-align: center;
+    }
+
+    .card{
+        display: inline-block;
+        width: 100%; 
+    }
+
+    img{
+        float: none;
+    }
+
+    h1{
+        font-size: 2.0rem;
+    }
+
+    p{
+        font-size: 1.1em;
+        margin: 20px 0px;
+    }
+    img{
+        float: none;
+    }
+    
+}
